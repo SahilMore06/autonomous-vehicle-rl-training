@@ -1,0 +1,19 @@
+{
+  "name": "rl-dashboard-nextgen",
+  "version": "1.0.0",
+  "description": "God-tier React + Node.js dashboard for RL Autonomous Vehicle",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "cd client && npm run build && cd .."
+  },
+  "keywords": ["reinforcement-learning", "dashboard", "websocket"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "cors": "^2.8.5"
+  }
+}
